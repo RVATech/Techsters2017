@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "FavoriteIcecream"
+    },
+    {
+      "intent": "KitchenFacts"
+    },
+    {
+      "intent": "RecipeFinder",
+      "slots": [
+        {
+          "name": "Ingredient",
+          "type": "LIST_OF_INGREDIENTS"
+        }
+      ]
+    }
+  ]
+}

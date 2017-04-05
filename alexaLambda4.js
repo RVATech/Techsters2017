@@ -33,10 +33,7 @@ const handlers = {
                 const recipeList = JSON.parse(body);
                 const recipeNumber = Math.floor(Math.random() * recipeList.count);
                 handler.emit(':tell', recipeList.recipes[recipeNumber].title);
-                handler.context.succeed();
             });
-        }).on('error', function(e) {
-            handler.context.done(null, 'FAILURE');
         });
     }
 };
@@ -46,11 +43,3 @@ exports.handler = (event, context) => {
     handler.registerHandlers(handlers);
     handler.execute();
 };
-
-
-
-
-
-
-
-

@@ -30,9 +30,9 @@ const handlers = {
             var body = '';
             res.on('data', function(chunk) { body += chunk; });
             res.on('end', function() {
-                const recipies = JSON.parse(body);
-                const recipeNumber = Math.floor(Math.random() * recipies.count);
-                handler.emit(':tell', recipies.recipes[recipeNumber].title);
+                const recipeList = JSON.parse(body);
+                const recipeNumber = Math.floor(Math.random() * recipeList.count);
+                handler.emit(':tell', recipeList.recipes[recipeNumber].title);
                 handler.context.succeed();
             });
         }).on('error', function(e) {
@@ -46,3 +46,11 @@ exports.handler = (event, context) => {
     handler.registerHandlers(handlers);
     handler.execute();
 };
+
+
+
+
+
+
+
+

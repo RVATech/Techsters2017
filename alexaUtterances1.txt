@@ -1,9 +1,9 @@
-FavoriteIcecream what is your favorite ice cream
-FavoriteIcecream what is Alexas favorite ice cream
-FavoriteIcecream what ice cream is your favorite
-FavoriteIcecream do you like icecream
-FavoriteIcecream do you eat icecream
-FavoriteIcecream do you have a favorite ice cream
-FavoriteIcecream is icecream your favorite
-FavoriteIcecream is icecream your favorite desert
-FavoriteIcecream have you had icecream
+FavoriteIceCream what is your favorite ice cream
+FavoriteIceCream what is Alexas favorite ice cream
+FavoriteIceCream what ice cream is your favorite
+FavoriteIceCream do you like ice cream
+FavoriteIceCream do you eat ice cream
+FavoriteIceCream do you have a favorite ice cream
+FavoriteIceCream is ice cream your favorite
+FavoriteIceCream is ice cream your favorite desert
+FavoriteIceCream have you had ice cream

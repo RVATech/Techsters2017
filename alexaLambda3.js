@@ -4,8 +4,8 @@ const handlers = {
     'LaunchRequest': function () {
         this.emit(':ask', "Welcome to your cookbook, ask me some questions and I'll try to answer!");
     },
-    'FavoriteIcecream': function () {
-        this.emit(':ask', "I love all types of icecream, but rocky road is my favorite!");
+    'FavoriteIceCream': function () {
+        this.emit(':ask', "I love all types of ice cream, but rocky road is my favorite!");
     },
     'KitchenFacts': function () {
         const facts = [
@@ -23,7 +23,7 @@ const handlers = {
         const ingredient = this.event.request.intent.slots.Item.value;
         const recipes = {
             'chocolate': 'whipped chocolate pie',
-            'vanilla': 'home made vanialla bean icecream',
+            'vanilla': 'home made vanialla bean ice cream',
             'strawberry': 'strawberry custard',
             'almond': 'almond crust cheesecake'
         }

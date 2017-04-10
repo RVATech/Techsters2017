@@ -1,9 +1,9 @@
-FavoriteIcecream What is your favorite ice cream
-FavoriteIcecream What's your favorite ice cream
-FavoriteIcecream Do you have a favorite ice cream
-FavoriteIcecream What is the best ice cream
-FavoriteIcecream What icecream is best
-FavoriteIcecream Which icecream is best
+FavoriteIceCream What is your favorite ice cream
+FavoriteIceCream What's your favorite ice cream
+FavoriteIceCream Do you have a favorite ice cream
+FavoriteIceCream What is the best ice cream
+FavoriteIceCream What ice cream is best
+FavoriteIceCream Which ice cream is best
 KitchenFacts Tell me a kitchen fact
 KitchenFacts Tell me a random kitchen fact
 KitchenFacts What is a random kitchen fact

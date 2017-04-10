@@ -7,5 +7,5 @@ FavoriteIceCream Which ice cream is best
 KitchenFacts Tell me a kitchen fact
 KitchenFacts Tell me a random kitchen fact
 KitchenFacts What is a random kitchen fact
-KitchenFacts What's  a random kitchen fact
+KitchenFacts What's a random kitchen fact
 KitchenFacts Say a random kitchen fact

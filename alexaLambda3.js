@@ -23,7 +23,7 @@ const handlers = {
         const ingredient = this.event.request.intent.slots.Item.value;
         const recipes = {
             'chocolate': 'whipped chocolate pie',
-            'vanilla': 'home made vanialla bean ice cream',
+            'vanilla': 'home made vanilla bean ice cream',
             'strawberry': 'strawberry custard',
             'almond': 'almond crust cheesecake'
         }

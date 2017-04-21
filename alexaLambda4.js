@@ -20,7 +20,7 @@ const handlers = {
         this.emit(':tell', facts[factNumber]);
     },
     'RecipeFinder': function() {
-        const ingredient = this.event.request.intent.slots.Item.value;
+        const ingredient = this.event.request.intent.slots.Ingredient.value;
         var handler = this;
         var http = require('http');
 

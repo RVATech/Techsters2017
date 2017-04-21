@@ -2,10 +2,10 @@ const alexa = require('alexa-sdk');
 
 const handlers = {
     'LaunchRequest': function () {
-        this.emit(':ask', "Welcome to your cookbook, ask me some questions and I'll try to answer!");
+        this.emit(':tell', "Welcome to your cookbook, ask me some questions and I'll try to answer!");
     },
     'FavoriteIceCream': function () {
-        this.emit(':ask', "I love all types of ice cream, but rocky road is my favorite!");
+        this.emit(':tell', "I love all types of ice cream, but rocky road is my favorite!");
     }
 };
 

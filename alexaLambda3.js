@@ -20,11 +20,11 @@ const handlers = {
         this.emit(':tell', facts[factNumber]);
     },
     'RecipeFinder': function() {
-        const ingredient = this.event.request.intent.slots.Item.value;
+        const ingredient = this.event.request.intent.slots.Ingredient.value;
         const recipes = {
             'chocolate': 'whipped chocolate pie',
             'vanilla': 'home made vanilla bean ice cream',
-            'strawberry': 'strawberry custard',
+            'strawberries': 'strawberry custard',
             'almond': 'almond crust cheesecake'
         }
         this.emit(':tell', recipes[ingredient]);

@@ -24,7 +24,7 @@ const handlers = {
         var handler = this;
         var http = require('http');
 
-        var url='http://food2fork.com/api/search?key=fa766e3612ffd0bb81207883147518f4&q='+ingredient;
+        var url='http://food2fork.com/api/search?key=fa766e3612ffd0bb81207883147518f4&cq='+ingredient;
 
         http.get(url, function(res) {
             var body = '';
